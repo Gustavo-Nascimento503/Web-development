@@ -1,0 +1,88 @@
+header {
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: bisque;
+}
+
+h1 {
+  margin-left: 20px;
+  font-size: 45px;
+}
+
+ul {
+  display: flex;
+  margin-right: 20px;
+}
+
+li {
+  list-style: none;
+  margin-left: 20px;
+  font-size: 20px;
+  font-weight: bold;
+} 
+
+li:hover {
+  color: aliceblue;
+  cursor: pointer;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+main{
+  margin-top: 30px;
+}
+
+#art1{
+  display: flex;
+  justify-content: space-around;
+}
+
+#art2{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 40px;
+}
+
+section{
+  text-align: center;
+}
+
+img{
+  max-width:200px;
+  max-height:250px;
+  width: auto;
+  height: auto;
+  margin-top: 10px;
+}
+
+#art1{
+  display: flex;
+  justify-content: space-around;
+
+}
+
+footer{
+  background-color: gray;
+  margin-top: 150px;
+  padding: 10px;
+  color: white;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+#idcomprar {
+  background-color: rgb(102,187,34);
+  color: white;
+  border: 1px solid black;
+}
+
+
+
+
+

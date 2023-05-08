@@ -1,0 +1,278 @@
+#menu-nav {
+  background-color: #333;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+#menu-nav h1 {
+  font-size: 28px;
+  margin: 0;
+  order: 1;
+}
+
+#menu-nav h1 a {
+  color: white;
+  text-decoration: none;
+}
+
+
+#menu-nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  order: 2;
+}
+
+#menu-nav li {
+  margin-right: 20px;
+}
+
+#menu-nav li:last-child {
+  margin-right: 0;
+}
+
+#menu-nav li a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  transition: all 0.3s ease;
+}
+
+#menu-nav li a:hover {
+  color: #ff6347;
+}
+
+
+
+/*Footer*/
+footer {
+   position: fixed;
+   bottom: 0;
+   left: 0;
+   width: 100%;
+   text-align: center;
+   background-color: #333;
+   padding: 1rem;
+ }
+ 
+ .rsocial {
+   display: flex;
+   justify-content: center;
+   list-style: none;
+   margin: 0;
+   padding: 0;
+ }
+ 
+ .rsocial li {
+   margin-right: 1rem;
+ }
+ 
+ .rsocial li:last-child {
+   margin-right: 0;
+ }
+
+ /* Componente Camisetas*/
+ main {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+   align-items: center;
+   min-height: calc(100vh - 100px);
+ }
+ 
+ .camisetas {
+   width: 100%;
+   max-width: 1200px;
+   margin: 0 auto;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+ }
+ 
+ .camiseta {
+   width: 300px;
+   margin: 20px;
+   text-align: center;
+ }
+ 
+ .camiseta img {
+   max-width: 100%;
+   height: auto;
+ }
+ 
+ .camiseta p {
+   font-size: 20px;
+   margin: 10px 0;
+ }
+ 
+ .camiseta span {
+   font-size: 18px;
+   font-weight: bold;
+   color: #f00;
+ }
+ .comprar {
+  width: 300px;
+  margin: 20px auto;
+  text-align: center;
+  }
+
+/* Componente Calçados*/
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  min-height: calc(100vh - 100px);
+}
+
+.calcados {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.calcado {
+  width: 300px;
+  margin: 20px;
+  text-align: center;
+}
+
+.calcado img {
+  max-width: 100%;
+  height: auto;
+}
+
+.calcado p {
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+.calcado span {
+  font-size: 18px;
+  font-weight: bold;
+  color: #f00;
+}
+
+
+/* Componente Frete*/
+.frete {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px auto;
+  width: 50%;
+  }
+  
+  h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  }
+  
+  select {
+  padding: 8px;
+  font-size: 16px;
+  margin-bottom: 20px;
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  }
+  
+  button[type="submit"], button {
+  background-color: #0077cc;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  }
+  
+  button[type="submit"]:hover, button:hover {
+  background-color: #005ea2;
+  }
+  
+  #userEstado, #frete {
+  font-size: 18px;
+  margin-bottom: 10px;
+  }
+  
+  #userEstado span, #frete span {
+  font-weight: bold;
+  }
+  
+  button {
+  background-color: #dc3545;
+  margin-top: 20px;
+  }
+  
+  button:hover {
+  background-color: #c82333;
+  }
+
+ /*Componente Footer*/
+
+ .rsocial{
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    list-style: none;
+ }
+
+ .rsocial li{
+    margin: 0 1em;
+ }
+
+ .rsocial svg{
+    font-size:30px;
+    cursor: pointer;
+    color:bisque
+ }
+
+ /*Componente Home*/
+ main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.home {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  max-width: 1200px;
+}
+
+.calcado {
+  width: 300px;
+  margin: 20px;
+}
+
+.calcado img {
+  max-width: 100%;
+  height: auto;
+}
+
+.calcado p {
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+.calcado span {
+  font-size: 18px;
+  font-weight: bold;
+  color: #f00;
+}
+
+
+
+
+
